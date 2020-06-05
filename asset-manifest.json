@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.js": "/react-use-appstate/static/js/main.7d2467f3.chunk.js",
-    "main.js.map": "/react-use-appstate/static/js/main.7d2467f3.chunk.js.map",
+    "main.js": "/react-use-appstate/static/js/main.f75c9e1b.chunk.js",
+    "main.js.map": "/react-use-appstate/static/js/main.f75c9e1b.chunk.js.map",
     "runtime-main.js": "/react-use-appstate/static/js/runtime-main.c13a8251.js",
     "runtime-main.js.map": "/react-use-appstate/static/js/runtime-main.c13a8251.js.map",
     "static/js/2.3eb62e7c.chunk.js": "/react-use-appstate/static/js/2.3eb62e7c.chunk.js",
     "static/js/2.3eb62e7c.chunk.js.map": "/react-use-appstate/static/js/2.3eb62e7c.chunk.js.map",
     "index.html": "/react-use-appstate/index.html",
-    "precache-manifest.a653568e9525d7ffdc8b321d50bf50fe.js": "/react-use-appstate/precache-manifest.a653568e9525d7ffdc8b321d50bf50fe.js",
+    "precache-manifest.80a689f920fec7a910a1a78df0562553.js": "/react-use-appstate/precache-manifest.80a689f920fec7a910a1a78df0562553.js",
     "service-worker.js": "/react-use-appstate/service-worker.js",
     "static/js/2.3eb62e7c.chunk.js.LICENSE.txt": "/react-use-appstate/static/js/2.3eb62e7c.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.c13a8251.js",
     "static/js/2.3eb62e7c.chunk.js",
-    "static/js/main.7d2467f3.chunk.js"
+    "static/js/main.f75c9e1b.chunk.js"
   ]
 }
