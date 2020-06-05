@@ -10,10 +10,10 @@ export default function App() {
         <AppStateProvider initialState={intialState}>
             <Router>
                 <Switch>
-                    <Route path='/demo/step-one'>
+                    <Route path='/'>
                         <StepOne />
                     </Route>
-                    <Route path='/demo/step-two'>
+                    <Route path='/finish'>
                         <StepTwo />
                     </Route>
                 </Switch>

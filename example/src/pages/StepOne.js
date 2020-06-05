@@ -23,7 +23,7 @@ export default function StepOne() {
             step={1}
             next={(e) => {
                 e.preventDefault()
-                history.push('/demo/step-two')
+                history.push('/finish')
             }}
         />
     )

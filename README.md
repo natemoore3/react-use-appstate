@@ -4,7 +4,7 @@
 
 [![NPM](https://img.shields.io/npm/v/react-use-appstate.svg)](https://www.npmjs.com/package/react-use-appstate) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
-react-use-appstate provides simple, extensible API's to manage and maintain global app state without extraneous boilerplate and code overhead.
+react-use-appstate provides simple, extensible API's to manage and maintain global app state without extraneous boilerplate and code overhead. A live demo can be found [here](https://natemoore3.github.io/react-use-appstate/).
 
 ## Install
 
