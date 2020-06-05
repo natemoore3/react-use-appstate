@@ -125,8 +125,7 @@ import { generate } from 'react-use-appstate'
 #### Example
 
 ```jsx
-export default generate({
-    name: 'useForm',
+export default generate('useForm', {
     /**
      * Expose a set of API's to fetch, update, create etc.
      * These must be created here, the hook will not
