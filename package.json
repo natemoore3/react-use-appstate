@@ -1,6 +1,6 @@
 {
     "name": "react-use-appstate",
-    "version": "0.1.0",
+    "version": "0.2.0",
     "description": "Extensible hook based state management",
     "author": "natemoore3",
     "license": "MIT",
