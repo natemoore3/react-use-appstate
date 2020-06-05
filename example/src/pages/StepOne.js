@@ -23,7 +23,7 @@ export default function StepOne() {
             step={1}
             next={(e) => {
                 e.preventDefault()
-                history.push('/react-use-appstate/finish')
+                history.push('/finish')
             }}
         />
     )

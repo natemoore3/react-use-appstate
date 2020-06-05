@@ -6,15 +6,19 @@ import StepOne from './pages/StepOne'
 import StepTwo from './pages/StepTwo'
 
 export default function App() {
+    const basename = process.env.NODE_ENV === 'development'
+        ? '/'
+        : process.env.PUBLIC_URL;
+
     return (
         <AppStateProvider initialState={intialState}>
-            <Router>
+            <Router basename={basename}>
                 <Switch>
-                    <Route path='/'>
-                        <StepOne />
-                    </Route>
                     <Route path='/finish'>
                         <StepTwo />
+                    </Route>
+                    <Route path='/'>
+                        <StepOne />
                     </Route>
                 </Switch>
             </Router>
