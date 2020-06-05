@@ -12,8 +12,9 @@ import {
     CircularProgress,
     IconButton
 } from '@material-ui/core'
-import GitHubIcon from '@material-ui/icons/GitHub';
+import GitHubIcon from '@material-ui/icons/GitHub'
 import useDemoState from '../hooks/useDemoState'
+import initialState from '../hooks/intialState'
 
 export default function Form({ state, setState, step, next }) {
     const [appState] = useAppState();
@@ -38,7 +39,7 @@ export default function Form({ state, setState, step, next }) {
                     </IconButton>
                 </Toolbar>
             </AppBar>
-            <Grid item xs={9} style={{ marginTop: 100 }}>
+            <Grid item xs={10} style={{ marginTop: 100 }}>
                 <Card style={{ padding: '24px 100px', minHeight: 275 }}>
                     <Typography variant='h5'>Demo Form</Typography>
                     <form onSubmit={next}>
@@ -128,8 +129,31 @@ export default function Form({ state, setState, step, next }) {
                     </form>
                 </Card>
             </Grid>
-            <Grid item md={4}>
-                <Card style={{ padding: '24px 100px' }}>
+            <Grid item md={3}>
+                <Card style={{ padding: '24px 36px' }}>
+                    <div>
+                        <Typography variant='h5' style={{ marginBottom: 10 }}>
+                        Initial State
+                        </Typography>
+                        <JSONPretty
+                            id='json-state'
+                            data={initialState}
+                            theme={{
+                                main:
+                                    'line-height:1.3;color:#66d9ef;background:#272822;overflow:auto;padding:12px',
+                                error:
+                                    'line-height:1.3;color:#66d9ef;background:#272822;overflow:auto;',
+                                key: 'color:#f92672;',
+                                string: 'color:#fd971f;',
+                                value: 'color:#a6e22e;',
+                                boolean: 'color:#ac81fe;'
+                            }}
+                        />
+                    </div>
+                </Card>
+            </Grid>
+            <Grid item md={3}>
+                <Card style={{ padding: '24px 36px' }}>
                     <div>
                         <Typography variant='h5' style={{ marginBottom: 10 }}>
                         useForm Hook
@@ -170,8 +194,8 @@ export default function Form({ state, setState, step, next }) {
                     </div>
                 </Card>
             </Grid>
-            <Grid item md={4}>
-                <Card style={{ padding: '24px 100px' }}>
+            <Grid item md={3}>
+                <Card style={{ padding: '24px 36px' }}>
                     <Typography variant='h5' style={{ marginBottom: 10 }}>
                         App State
                     </Typography>
