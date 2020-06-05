@@ -19,9 +19,7 @@ import initialState from '../hooks/intialState'
 export default function Form({ state, setState, step, next }) {
     const [appState] = useAppState();
     const {
-        state: {
-            data: demoData
-        }
+        state: demoState
     } = useDemoState()
     const { data, loading } = state
 
@@ -179,7 +177,7 @@ export default function Form({ state, setState, step, next }) {
                         </Typography>
                         <JSONPretty
                             id='json-state'
-                            data={demoData}
+                            data={demoState}
                             theme={{
                                 main:
                                     'line-height:1.3;color:#66d9ef;background:#272822;overflow:auto;padding:12px',
