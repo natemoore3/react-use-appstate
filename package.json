@@ -73,6 +73,6 @@
     "dependencies": {
         "check-types": "^11.1.2",
         "deepmerge": "^4.2.2",
-        "immer": "^6.0.9"
+        "immer": "^9.0.6"
     }
 }
